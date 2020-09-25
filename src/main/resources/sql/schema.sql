@@ -1,0 +1,7 @@
+CREATE TABLE shoes(
+ id INT NOT NULL AUTO_INCREMENT,
+ name VARCHAR(128),
+ version INT DEFAULT 0,
+ size INT,
+ PRIMARY KEY (id)
+);
